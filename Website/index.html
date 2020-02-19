@@ -1,0 +1,163 @@
+
+<html> 
+	<head>
+		<link type= "text/css" rel= "stylesheet" href="main.css"/>
+		<title> A Website about my BFF, Because Why Not? </title> 
+		<script>
+			function banner(){
+				var text = confirm("you suuuuuure u wanna click here??");
+				return text;
+			}
+			function answer(){
+				var radio = document.getElementsByName("trivia");
+				var selection = false;
+				var message = ""; 
+					for(var i = 0; i < radio.length; i++) {
+						if(radio[i].value == "yes" && radio[i].checked == true){
+							selection = true;
+						}
+					}
+					if(selection == true){
+						message = message + "<b><p style= 'color:green'>Way to go!</p></b>";
+					}
+					document.getElementById("response").innerHTML = message;
+			}
+
+		</script>
+	</head> 
+	<body> 
+		<header id="banner">A Website about my BFF, Because Why Not?</header>
+		<nav> 
+			<ul id= "navmenu">
+				<li class= "navitem"> <a href="Page 2.html"> Page 2 </a></li >
+				<li class= "navitem"> <a href="Page 3.html"> Page 3 </a></li>
+				<li class= "navitem"> <a href="Page 4.html"> Page 4 </a></li>
+			</ul>
+		</Nav>
+		<div class="rightside">
+			Don't even deny it
+		</div>
+		<div class="leftside">
+			You know the statement below is true.
+		</div>
+		<div class="clearfloat"></div>
+		<h1>
+			<a onclick="return banner()" href="https://youtu.be/RBumgq5yVrA">
+			<center><u>Megan if you are reading this I miss you moreeeeeeeeee!!!</u></center>
+		</a>
+		<img class="imagee" width="30%" height="20%" src="https://images.stockfreeimages.com/1961/sfixl/19612176.jpg"></div>
+		</h1>
+		<br/>
+		<p>
+			My best friend is also my cousin, and her name is Megan. Megan lives far away from me, so we don't get to see each other often, but we text and facetime almost everyday. Megan loves to hang out with her friends, read, and play video games. Her favorite game series is The Legend of Zelda. In fact, Megan got me hooked on Zelda too. I've always loved video games but she introduced me to The Legend of Zelda, and now it's one of my favorites too. Megan also likes to paint. (She's pretty good too!)
+		</p>
+		<img class="cat" width="30%" height="20%" src="https://thumbs.dreamstime.com/b/cat-sleeping-book-open-reading-glasses-fallen-to-side-white-background-concept-how-good-may-help-one-50189720.jpg">
+		<br/>
+		<br/>
+		<Marquee>These are a few of my favorite things!</Marquee>
+		<br/>
+		<h3><u>Megan's Favorite Things</u></h3>
+		<table border="1">
+			<tr>
+				<th>Color</th>
+				<th>Movie</th>
+				<th>Book</th>
+				<th>Activity</th>
+				<th>Food</th>
+				<th>Drink</th>
+				<th>Person</th>
+			</tr>
+			<tr>
+				<td>Red</td>
+				<td>The Hunger Games</td>
+				<td>All I Need</td>
+				<td>Video Games</td>
+				<td>Popcorn</td>
+				<td>Milk</td>
+				<td>Grandpa</td>
+			</tr>
+		</table>
+		<br/>
+		<center><iframe width="560" height="315" src="https://www.youtube.com/embed/MtN1YnoL46Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+		<br/>
+		<center><p style= "font-size: 40px; color: #6600cc"> Time for some trivia!</p></center>
+		<p style= "color: #6600cc">Which favorite do you have in common with Megan?</p>
+			<form>
+				<div id="response"> </div>
+				<input type="radio" name="trivia"> Favorite color is red
+				<br/>
+				<input type="radio" name="trivia"> Favorite movie is The Hunger Games
+				<br/>
+				<input type="radio" name="trivia"> Favorite activity is video games
+				<br/>
+				<input type="radio" name="trivia"> Favorite food is popcorn
+				<br/>
+				<input type="radio" name="trivia"> Favorite drink is milk
+			</form>
+			<br/>
+		<p>What is Megan's favorite video game?</p>
+			<form>
+				<input type="radio" name="trivia" value="nope" > Donkey Kong
+				<br/>
+				<input type="radio" name="trivia" value="nope"> Super Mario Odyssey
+				<br/>
+				<input type="radio" name="trivia" value="yes"> The Legend of Zelda
+				<br/>
+				<input type="radio" name="trivia" value="nope"> Animal Crossing
+				<input onclick="answer()" type="button" value="Submit">
+			</form>
+			<br/>
+		<p>What color hair do you picture Megan having?</p>
+			<form>
+				<input type="radio" name="trivia"> Blonde hair
+				<br/>
+				<input type="radio" name="trivia"> Brown hair
+				<br/>
+				<input type="radio" name="trivia"> Black hair
+				<br/>
+				<input type="radio" name="trivia"> Red hair
+			</form>
+			<br/>
+		<p style= "font-size: 30px; color: purple"> Rate this website! (5 the best 1 the worst)</p>
+			<form>
+				<input type="radio" name="trivia">5
+				<input type="radio" name="trivia">4
+				<input type="radio" name="trivia">3
+				<input type="radio" name="trivia">2
+				<input type="radio" name="trivia">1
+				<br/>
+				<input type="button" value="Submit">
+			</form>
+		<br/>
+		<audio width="400" height="220" controls>
+			<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+		</audio>
+	<div class="listtt">
+		<p>Megans fav foods</p>
+		<li class="listitem"> Popcorn</li>
+		<li class="listitem"> Strawberries</li>
+		<li class="listitem">Doritos</li>
+		<li class="listitem">Noodles</li>
+		<li class="listitem">Milk</li>
+	</div>
+
+
+		<br/>
+		<h2> Thanks for checking out this website! <span class="lookie"> Have a great day!! </span> </h2>
+
+		<img widht="50%" src="https://thumbs.dreamstime.com/b/dog-jumping-over-pool-water-29720697.jpg"/>
+
+
+
+
+
+
+
+
+
+
+		<footer id="footer">Thanks for checking this out!</footer>
+		<img 
+
+	</body> 
+</html>
